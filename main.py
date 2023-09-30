@@ -1,5 +1,4 @@
 import sqlite3
-import random
 
 with sqlite3.connect('homework_2_15\\users.db') as db: 
     cr = db.cursor()
